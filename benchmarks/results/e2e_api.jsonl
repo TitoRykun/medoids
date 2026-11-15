@@ -1,0 +1,25 @@
+{"warmup_s": 5.26, "threads": 12, "machine": "AMD64", "system": "Windows", "python": "3.12.1", "numba": "0.68.1", "numpy": "2.5.4", "medoids": "0.1.0"}
+{"data": "gauss", "d": 10, "n": 100000, "call": "medoid", "seconds": 0.1047, "index": 72425}
+{"data": "gauss", "d": 10, "n": 100000, "call": "kmedoids", "k": 10, "polish": false, "seconds": 1.2108, "loss": 265988.12, "polish_iterations": 0}
+{"data": "gauss", "d": 10, "n": 100000, "call": "kmedoids", "k": 10, "polish": true, "seconds": 1.3573, "loss": 265988.12, "polish_iterations": 1}
+{"data": "clustered", "d": 2, "n": 100000, "call": "medoid", "seconds": 0.0945, "index": 69848}
+{"data": "clustered", "d": 2, "n": 100000, "call": "kmedoids", "k": 10, "polish": false, "seconds": 1.2265, "loss": 93917.5, "polish_iterations": 0}
+{"data": "clustered", "d": 2, "n": 100000, "call": "kmedoids", "k": 10, "polish": true, "seconds": 2.4034, "loss": 93697.85, "polish_iterations": 18}
+{"data": "clustered", "d": 10, "n": 100000, "call": "medoid", "seconds": 0.2597, "index": 21636}
+{"data": "clustered", "d": 10, "n": 100000, "call": "kmedoids", "k": 10, "polish": false, "seconds": 1.2711, "loss": 326190.34, "polish_iterations": 0}
+{"data": "clustered", "d": 10, "n": 100000, "call": "kmedoids", "k": 10, "polish": true, "seconds": 1.6997, "loss": 319967.4, "polish_iterations": 3}
+{"data": "clustered", "d": 100, "n": 100000, "call": "medoid", "seconds": 1.4404, "index": 80714}
+{"data": "clustered", "d": 100, "n": 100000, "call": "kmedoids", "k": 10, "polish": false, "seconds": 5.0255, "loss": 1256904.28, "polish_iterations": 0}
+{"data": "clustered", "d": 100, "n": 100000, "call": "kmedoids", "k": 10, "polish": true, "seconds": 10.3043, "loss": 1243065.87, "polish_iterations": 2}
+{"data": "gauss", "d": 10, "n": 1000000, "call": "medoid", "seconds": 0.9096, "index": 361704}
+{"data": "gauss", "d": 10, "n": 1000000, "call": "kmedoids", "k": 10, "polish": false, "seconds": 1.89, "loss": 2657528.36, "polish_iterations": 0}
+{"data": "gauss", "d": 10, "n": 1000000, "call": "kmedoids", "k": 10, "polish": true, "seconds": 3.338, "loss": 2657528.36, "polish_iterations": 1}
+{"data": "clustered", "d": 2, "n": 1000000, "call": "medoid", "seconds": 0.9625, "index": 251214}
+{"data": "clustered", "d": 2, "n": 1000000, "call": "kmedoids", "k": 10, "polish": false, "seconds": 1.9442, "loss": 919263.89, "polish_iterations": 0}
+{"data": "clustered", "d": 2, "n": 1000000, "call": "kmedoids", "k": 10, "polish": true, "seconds": 14.1778, "loss": 917879.73, "polish_iterations": 11}
+{"data": "clustered", "d": 10, "n": 1000000, "call": "medoid", "seconds": 2.0937, "index": 250678}
+{"data": "clustered", "d": 10, "n": 1000000, "call": "kmedoids", "k": 10, "polish": false, "seconds": 1.9048, "loss": 3281694.48, "polish_iterations": 0}
+{"data": "clustered", "d": 10, "n": 1000000, "call": "kmedoids", "k": 10, "polish": true, "seconds": 4.4794, "loss": 3154179.62, "polish_iterations": 2}
+{"data": "clustered", "d": 100, "n": 1000000, "call": "medoid", "seconds": 10.6334, "index": 130276}
+{"data": "clustered", "d": 100, "n": 1000000, "call": "kmedoids", "k": 10, "polish": false, "seconds": 7.1662, "loss": 12635920.21, "polish_iterations": 0}
+{"data": "clustered", "d": 100, "n": 1000000, "call": "kmedoids", "k": 10, "polish": true, "seconds": 24.5691, "loss": 12169081.71, "polish_iterations": 2}
